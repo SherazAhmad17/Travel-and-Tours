@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.row{
+    --bs-gutter-x: 0 !important;
+}
+
+
+.main{
+    background-image: url(image/gettyimages-833247510-1579034796.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.intro{
+    padding-top: 170px;
+}
+
+.icons{
+    font-size: 35px;
+}
+
+.box{
+    list-style-type: none;
+}
+
+@media screen and (max-width:490px) {
+    .img1{
+        width: 370px;
+    }
+}
+
+.carr{
+    position: relative;
+    top: 130px;
+}
+
+.fontawsome{
+    font-size: 30px;
+}
